@@ -25,6 +25,7 @@ urlpatterns = [
    path('login/',login_user.as_view()),
    path('enterdata/',Enter_the_item.as_view()),
    path('getdatabyname/<str:name>/',get_door_details.as_view()),
+   path('getprice/',get_price.as_view())
    
 ]
 
